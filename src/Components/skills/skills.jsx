@@ -15,52 +15,52 @@ export const Skills = () => {
 const techno = [
     {
         name: "HTML",
-        image: "/icons/html.png",
+        image: "html.png",
         id: "1"
     },
     {
         name: "CSS",
-        image: "/icons/css.png",
+        image: "css.png",
         id: "2"
     },
     {
         name: "JavaScript",
-        image: "/icons/javascript.png",
+        image: "javascript.png",
         id: "3"
     },
     {
         name: "React",
-        image: "/icons/react.png",
+        image: "react.png",
         id: "4"
     },
     {
         name: "Redux",
-        image: "/icons/redux.png",
+        image: "redux.png",
         id: "5"
     },
     {
         name: "Material Ui",
-        image: "/icons/materialui.png",
+        image: "materialui.png",
         id:"6"
     },
     {
         name: "Node.js",
-        image: "/icons/nodejs.png",
+        image: "nodejs.png",
         id: "7"
     },
     {
         name: "MongoDb",
-        image: "/icons/mongodb.png",
+        image: "mongodb.png",
         id: "8"
     },
     {
         name: "Bootstrap",
-        image: "/icons/bootstrap.png",
+        image: "bootstrap.png",
         id: "9"
     },
     {
         name: "Express.js",
-        image: "/icons/expressjs.png",
+        image: "expressjs.png",
         id: "10"
     },
 ];
@@ -68,17 +68,17 @@ const techno = [
 const proficiencies = [
     {
         name: "Front-end",
-        image: "/icons/frontend.png",
+        image: "frontend.png",
         id: "1"
     },
     {
         name: "Backend",
-        image: "/icons/backend.png",
+        image: "backend.png",
         id: "2"
     },
     {
         name: "DS & Algorithm",
-        image: "/icons/datastructure.png",
+        image: "datastructure.png",
         id: "3"
     },
 ];

@@ -10,7 +10,7 @@ export const AboutMe = () => {
       <h1>About me</h1>
       <div className={styles.container} container="true" spacing={1}>
         <div className={styles.imgBox}>
-          <img src="/feeling_proud.png" alt="" />
+          <img src="feeling_proud.png" alt="" />
         </div>
         <div>
           <div className={styles.textBox}>
