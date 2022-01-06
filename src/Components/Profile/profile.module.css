@@ -1,0 +1,70 @@
+*{
+color: #15232D;
+}
+.wrapper{
+/* margin-top: 60px; */
+background-image: linear-gradient(rgba(158, 129, 129, 0.2), rgba(0, 0, 0, 0.5)), url("../../images/redcover2.jpg");
+/* height: 50%; */
+/* background-position: center; */
+/* background-repeat: no-repeat; */
+/* background-size:cover; */
+/* position: relative; */
+background-size: 100% 100%;
+/* object-position: center; */
+/* margin-bottom : 100px; */
+padding-bottom:20px;
+box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+.imgBox>img{
+    width: 150px;
+    border: solid 4px #fff;
+    border-radius: 50%;
+    margin-top:50px;
+}
+.myName{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+.myName>span{
+    color: #FFF;
+}
+.title{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.title>span{
+    color: #FFF;
+}
+.descrip{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.container>button{
+    border: none;
+    outline: none;
+    color: #CC4865;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 20px 0;
+    font-size: 15px;
+}
+.container>button svg{
+    fill: #CC4865;
+    margin-right: 5px;
+}

@@ -1,0 +1,15 @@
+.wrapper{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.wrapper svg{
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    fill: #cc4865;
+    /* background-color: white;
+    border-radius: 50%; */
+}

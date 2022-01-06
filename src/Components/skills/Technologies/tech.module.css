@@ -1,0 +1,23 @@
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 1100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px 0;
+    background-color: white;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+.container>h2{
+    margin-bottom: 10px;
+}
+.grid>div img{
+    width: 100%;
+}
+
+.container p{
+    font-size: 12px;
+    /* transform: translateY(-7px) */
+}

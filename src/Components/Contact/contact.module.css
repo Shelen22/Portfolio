@@ -1,0 +1,88 @@
+.wrapper {
+  border-top: solid #e7e7e7 1px;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  margin: 30px 0;
+}
+.wrapper > h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 30px;
+  color: #cc4865;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 80%;
+  margin: auto;
+  /* border: solid; */
+}
+.container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* border: solid green 1px; */
+}
+
+.formBox button {
+  color: white;
+}
+.formBox svg {
+  fill: white;
+  margin-right: 5px;
+}
+
+.textBox > h2 {
+  margin-bottom: 10px;
+}
+.contactDetails > div {
+  text-align: left;
+}
+.contactDetails > div > div {
+  display: flex;
+  margin: 30px;
+  align-items: center;
+}
+.contactDetails svg {
+  margin-right: 5px;
+}
+.textBox > h2 {
+  margin-bottom: 10px;
+}
+
+.iconBox {
+  margin-top: 20px;
+}
+.linkedIn svg {
+  fill: #0a66c2;
+}
+.gitHub svg {
+  fill: #24292f;
+}
+.twitter svg {
+  fill: #1d9bf0;
+}
+.info > svg {
+  fill: #cc4865;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 100%;
+  }
+  .formBox {
+    text-align: center;
+  }
+  .textBox {
+    text-align: center;
+  }
+  .iconBox {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
