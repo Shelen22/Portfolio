@@ -8,7 +8,7 @@ export const Profile = () => {
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <motion.div variants={fade} initial="hidden" animate="show" className={styles.imgBox}>
-                    <img src="" alt="" />
+                    <img src="./Myprofile.jpeg" alt="" />
                 </motion.div>
                 <div className={styles.myName}>Hi, I'm <span>Shailendra Singh</span></div>
                 <div className={styles.title}>I'm a{" "}
@@ -25,7 +25,7 @@ export const Profile = () => {
                 <p className={styles.descrip}>
                     An Aspiring Developer with a passion for developing scalable web applications.
                 </p>
-                <button onClick={() => { window.open("https://drive.google.com/file/d/1eebmb8sN9rTTKQC8RMqyh-KE4t-wuZQy/view?usp=sharing") }}> <GetAppIcon /> RESUME</button>
+                <button onClick={() => { window.open("https://drive.google.com/file/d/1eebmb8sN9rTTKQC8RMqyh-KE4t-wuZQy/view?usp=sharing") }}> RESUME</button>
             </div>
         </div>
     )

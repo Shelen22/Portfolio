@@ -38,7 +38,7 @@ margin-left: -25rem;
         margin:auto;
     }
      @media (max-width: 768px) {
-    width: 150px;
+     width: 150px;
     margin-top: 12rem;
     margin-left: -11rem;
   }

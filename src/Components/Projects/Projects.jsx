@@ -134,7 +134,7 @@ const projects = [
     descrip: "It is an Indian E-commerce web application that provides customer to customer & business to business sales service via its web portal.",
     gitHub: "https://github.com/Upsehu/India-Mart",
     demolink: "https://upsehu.github.io/India-Mart/",
-    techs: ["/icons/javascript.png","./icons/html.png" , "./icons/css.png"],
+    techs: ["./javascript.png","./html.png" , "./css.png"],
     id :"1"
   },
   {
@@ -143,7 +143,7 @@ const projects = [
     descrip: "A web application for learning and an online course provider for software, creative, and business skills, taught by industry experts",
     gitHub: "https://github.com/Gautam-8/FW_12_Project_lynda",
     demolink: "https://gautam-8.github.io/FW_12_Project_lynda/html/index.html",
-    techs: ["/icons/javascript.png","./icons/html.png" , "./icons/css.png","/icons/nodejs.png","/icons/expressjs.png","/icons/mongodb.png"],
+    techs: ["./javascript.png","./html.png" , "./css.png","./nodejs.png","./expressjs.png","./mongodb.png"],
     id :"2"
   },
   {
@@ -152,7 +152,7 @@ const projects = [
     descrip: "You can Search any Movie and get all information about that moive. ",
     gitHub: "https://github.com/Shelen22/Movie-signup",
     demolink: "https://shelen22.github.io/Movie-signup/",
-    techs: ["./icons/html.png" , "./icons/css.png","/icons/javascript.png"],
+    techs: ["./html.png" , "./css.png","./javascript.png"],
     id :"3"
   }
 ]
