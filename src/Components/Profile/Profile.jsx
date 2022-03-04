@@ -25,7 +25,7 @@ export const Profile = () => {
                 <p className={styles.descrip}>
                     An Aspiring Developer with a passion for developing scalable web applications.
                 </p>
-                <button onClick={() => { window.open("https://drive.google.com/file/d/1eebmb8sN9rTTKQC8RMqyh-KE4t-wuZQy/view?usp=sharing") }}> RESUME</button>
+                <button onClick={() => { window.open("https://drive.google.com/file/d/1F73ZBRJzBCwGf5_CA9lMsjLNG8ishEgl/view?usp=sharing") }}> RESUME</button>
             </div>
         </div>
     )
